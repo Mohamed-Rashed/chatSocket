@@ -72,7 +72,7 @@ class _IndividualPageState extends State<IndividualPage> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    widget.chat.name,
+                    widget.chat.name!,
                     style: TextStyle(
                       fontSize: 18,
                       fontWeight: FontWeight.bold,
